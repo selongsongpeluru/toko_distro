@@ -1,8 +1,11 @@
 <?php
 require_once 'config/database.php';
 
-// test
+// test1
 $testis = '123';
+
+// test2
+$testis = '456';
 
 // Routing Sederhana
 $page = isset($_GET['page']) ? $_GET['page'] : 'home';
