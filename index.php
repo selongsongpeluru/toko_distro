@@ -1,6 +1,9 @@
 <?php
 require_once 'config/database.php';
 
+// test
+$testis = '123';
+
 // Routing Sederhana
 $page = isset($_GET['page']) ? $_GET['page'] : 'home';
 $action = isset($_GET['action']) ? $_GET['action'] : 'view';
